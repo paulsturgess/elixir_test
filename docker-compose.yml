@@ -1,0 +1,8 @@
+version: '2'
+services:
+  web:
+    image: elixir_test:v1
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: /bin/bash
